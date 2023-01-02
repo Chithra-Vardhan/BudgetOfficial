@@ -1,0 +1,106 @@
+.App {
+    text-align: center;
+  }
+  
+  .App-logo {
+    height: 40vmin;
+    pointer-events: none;
+  }
+  
+  @media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+      animation: App-logo-spin infinite 20s linear;
+    }
+  }
+  
+  .App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+  
+  .App-link {
+    color: #61dafb;
+  }
+  
+  @keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+  
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+  .flex {
+    display: grid;
+    flex-direction: row;
+    grid-template-columns: repeat(4, 1fr);
+  }
+  
+  .logo {
+    width: 70px;
+    height: 50px;
+  }
+  
+  .label {
+    font-size: 15px;
+    font-family: 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue';
+  }
+  
+  .input {
+    border: 1px solid black;
+    float: left;
+    margin: 0;
+    padding: 0;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+  }
+  
+  .form-heading {
+    font-size: 22px;
+    font-family: 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue';
+    color: blue;
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  .event-form {
+    background-color: rgb(168, 212, 231);
+    border-radius: 5px;
+  }
+  
+  .carousel-image {
+    height: 680px;
+    width: 100%;
+  }
+  
+  .box-width {
+    width: 200px;
+  }
+  
+  .filter-width {
+    width: 700px
+  }
+  
+  .select-width {
+    width: 150px;
+  }
+  
+  .date-width {
+    width: 190px;
+  }
+  
+  .profile-pic {
+    height: 75px;
+    width: 100px;
+  }

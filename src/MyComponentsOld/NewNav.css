@@ -1,0 +1,41 @@
+
+.div1 a{
+    position: absolute;
+    top: 450px;
+    left: 450px;
+    text-decoration: none;
+    color:red;
+    font-weight: 800;
+    font-size: 40px;
+
+}
+.div1 a:hover{
+     /* background-color: none; */
+     color:red;
+}
+
+body{
+    margin:0px;
+/*  
+    background-image: url( "https://files.nc.gov/osbm/budget%20-%20iStock_000041295790_Large.jpg?VersionId=cUoo.GYt_s8QOQlldayC56bzmM1XHmyK");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%; */
+}
+a{
+    color : rgba(0, 0, 0, 0.856);
+    text-decoration: none;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    line-height: 60px;
+}
+a:hover{
+    background-color:rgba(27, 26, 26, 0.709);
+    color:antiquewhite
+}
+
+img{
+    width: 100vw;
+    height: 100vh;
+
+}

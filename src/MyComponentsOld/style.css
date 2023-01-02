@@ -1,0 +1,124 @@
+.mainContainer {
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 40px;
+}
+body{
+  background-color:rgba(207, 200, 191, 0.836);
+}
+
+* {
+  box-sizing: border-box
+}
+
+/* Full-width input fields */
+input[type=text],
+input[type=password],
+input[type=date] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+  border-radius: 6px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+input[type=text]:focus,
+input[type=password]:focus,
+input[type=date]:focus,
+input[type=number]:focus {
+  background-color: #ddd;
+  border: 1px SOLID rgb(7, 7, 7);
+  outline: 0px;
+  border-radius: 10px;
+}
+
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: #080808fa;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  border-radius: 10px;
+  font-size: 20px;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+  padding: 14px 20px;
+  background-color: #0a0a0a;
+  font-size: 20px;
+  /* box-shadow: 0 0 1px 1px grey; */
+}
+
+/* Add padding to container elements */
+
+.form-container {
+  background-color: white;
+  padding: 16px;
+  box-shadow: -14px 17px 20px #524f4ff1;
+  border-radius: 8px;
+  /* border: 1px solid rgba(66, 62, 62, 0.877); */
+  min-width: 420px;
+  max-width: auto;
+}
+
+.clearfix {
+  display: flex;
+  justify-content: space-around;
+}
+
+h1{
+  text-align: center;
+}
+ /* th{
+  background-color: black;
+  color:antiquewhite;
+  padding: 8px;
+  text-align: left;
+} 
+
+td{
+    border: 1px solid #1d9fbc;  
+   text-align: left;
+  padding: 8px;
+ } 
+
+
+tr {
+  border-bottom: 1px solid rgb(130, 119, 119);
+}
+
+table{
+  width: 100%;
+   border-collapse: collapse; 
+  font-family: arial, sans-serif;
+  border-spacing: 30px;
+   background-color: black;
+   color:whitesmoke;
+   border: 1px solid whitesmoke;
+}
+
+
+tr:hover {background-color: #c8d3ca;} */
+/* table1 th{
+  background-color: black;
+  color:antiquewhite;
+  padding: 8px;
+  text-align: left;
+
+} */
+.form-container a{
+   text-decoration: none;
+}
